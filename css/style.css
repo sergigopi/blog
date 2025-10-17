@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -9,21 +14,51 @@ body {
 }
 
 header {
-    height: 10vh;
+    /* height: 10vh; */
     width: 100vw;
 }
 nav {
-    height: 10vh;
+    /* height: 10vh; */
     width: 100vw;
+
+    background-color: peru;
+}
+
+ul {
+    height: 100%;
 }
 
 main {
-    height: 70vh;
+    /* height: 70vh; */
     width: 100vw;
 }
 
 footer {
-    height: 10vh;
+    /* height: 10vh; */
     width: 100vw;
 }
 
+/* FLEXBOX */
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
